@@ -1,10 +1,10 @@
 body, ul, li, h1, h2, a{
     margin: 0px;
     padding: 0px;
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
-    background-color: #f63232;
+    background-color:crimson;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -27,7 +27,7 @@ header h1{
     max-width: 100%;
 }
 .banner .welcome{
-    background-color: #ffc847;
+    background-color: blue;
     color: whitesmoke;
     padding: 30px;
     position: absolute;
