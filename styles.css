@@ -117,3 +117,13 @@ footer{
     font-style: italic;
 }
 
+/* pseudo classes */
+
+nav li a:hover{
+    text-decoration: underline;
+}
+.thumbnails img:hover{
+    position: relative;
+    top: -4px;
+}
+
