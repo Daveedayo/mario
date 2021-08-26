@@ -38,7 +38,7 @@ header h1{
     font-size: 75px;
 }
 .welcome span{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 nav{
     background-color: #f4f4f4;
@@ -148,4 +148,45 @@ p::selection{
 p::after{
     content: '...'
 }
+
+/* Responsive styles*/
+
+@media screen and (max-width: 1000px){
+    
+    .banner .welcome h2{
+        font-size: 60px;
+        
+    }
+    nav li{
+        font-size: 18px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 800px){
+    
+    .banner .welcome h2{
+        font-size: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    .banner .welcome{
+        position: relative;
+        text-align: center;
+        padding: 10px;
+     }
+
+     br{
+         display: none;
+     }
+     span{
+        font-size: 1em; 
+     }
+}    
+
 
