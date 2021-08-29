@@ -7,7 +7,7 @@ header{
     background-color: #f63232;
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1;
     top: 0px;
@@ -187,11 +187,30 @@ p::after{
      span{
         font-size: 1em; 
      }
-     .images li{
+     .thumbnails li{
         width: 100%;
         margin: 20px auto;
         display: block;
      }
 }    
+
+@media screen and (max-width: 530px){
+
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+    header{
+        position: relative;
+    }
+}
+nav{
+    top: 0px;
+}
+    
+
+
 
 
